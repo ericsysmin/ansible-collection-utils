@@ -1,0 +1,17 @@
+ancestor: null
+releases:
+  1.0.0:
+    release_date: '2024-01-12'
+    changes:
+      release_summary: Initial release of this collection and
+        inclusion of 1Password roles
+      major_changes:
+        - Initial release of the collection
+        - 1Password ansible role
+        - 1Password CLI ansible role
+    objects:
+      role:
+        - name: onepassword
+          description: Role to install the 1Password
+        - name: onepasswordcli
+          description: Role to install the 1Password CLI

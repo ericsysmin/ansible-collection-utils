@@ -1,0 +1,6 @@
+---
+# code: language=ansible
+
+- name: 1Password CLI | Install via Brew
+  community.general.homebrew:
+    name: 1password-cli

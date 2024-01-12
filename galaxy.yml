@@ -1,0 +1,23 @@
+---
+# code: language=ansible
+
+namespace: ericsysmin
+name: utils
+version: 1.0.0
+readme: README.md
+authors:
+  - Eric Anderson <eric.sysmin@outlook.com>
+description: Collection of utilities for development
+license:
+  - MIT
+license_file: ""
+tags:
+  - application
+  - tools
+dependencies:
+  "community.general": "*"
+repository: http://example.com/repository
+documentation: http://docs.example.com
+homepage: http://ericsysmin.com
+issues: http://example.com/issue/tracker
+build_ignore: []

@@ -1,0 +1,7 @@
+---
+# code: language=ansible
+
+# tasks file for onepasswordcli
+
+- name: 1Password CLI | Run OS specific installation tasks
+  ansible.builtin.include_tasks: "{{ ansible_distribution }}.yml"
